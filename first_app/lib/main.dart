@@ -14,7 +14,9 @@ void main() {
           )
           ),
           child: const Center(
-            child: Text('Hello World'),
+            child: Text('Hello World',style: TextStyle(
+              color : Color.fromARGB(255, 16, 16, 186) ,
+              fontSize: 28.0),),
           ),
         ),
       ),
