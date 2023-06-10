@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/style_text.dart' ;
+// import 'package:first_app/style_text.dart' ;
 
 class GradientContiner extends StatelessWidget {
   const GradientContiner(this.color,{super.key});
@@ -15,8 +15,8 @@ class GradientContiner extends StatelessWidget {
         begin: Alignment.bottomCenter,
         end: Alignment.topCenter,
       )),
-      child: const Center(
-        child: StyleText('Arnab') ,
+      child: Center(
+        child: Image.asset('assets/images/dice-2.png') ,
       ),
     );
   }

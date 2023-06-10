@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import  'package:first_app/gradient_container.dart';
 
-const List<Color> color = [Color(0xffc8e7ca), Color(0xff8bc34a)];
+const List<Color> color = [Color(0xffd8fbff), Color(0xff00bcd4)];
 
 void main() {
   runApp( 
